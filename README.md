@@ -18,7 +18,6 @@ services:
         volumes:
             - /var/hostdir/nodeapp:/nodeapp
             - /var/hostdir/nodeapp/logs:/root/.npm/_logs/
-	...
 
     mongo:
         image: mongo
