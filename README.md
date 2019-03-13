@@ -9,6 +9,7 @@ Simply copy Dockerfile and docker-compose.yml to your project and run docker-com
 Volume Configuration
 --------------------
 
+```volume config
 version: '3'
 services:
     app:
@@ -26,3 +27,4 @@ services:
         volumes:
             - /var/hostdir/mongodb/data:/data/db
             - /var/hostdir/mongodb/config:/data/configdb
+```
