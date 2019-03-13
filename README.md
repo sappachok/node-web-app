@@ -1,5 +1,7 @@
-# Node.js Web Application + Mongo Database Docker compose
+Node.js Web Application + Mongo Database Docker compose
+=======================================================
 
-# Usage
+Usage
+-----
 
 Simply copy Dockerfile and docker-compose.yml to your project and run docker-compose up.
