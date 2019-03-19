@@ -12,5 +12,7 @@ RUN npm install
 # If you are building your code for production
 # RUN npm install --only=production
 
+RUN npm install --unsafe-perm -g localtunnel
+
 EXPOSE 3000
 CMD [ "npm", "start" ]
