@@ -1,4 +1,4 @@
-Node.js Web Application + Mongo Database Docker compose
+Node.js Web Application + Mongo Database Docker compose v1.0
 =======================================================
 
 Usage
